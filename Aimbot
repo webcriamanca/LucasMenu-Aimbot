@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/Ui-Librarys/main/Gerad's/source.lua"))()
+
+local Window = Library:CreateWindow('LUCAS MENU')
+
+local Section = Window:Section('AIMBOT')
+
+
+Section:Label('Funçoes')
+
+
+Section:Button('Aimbot (pc)', function(t)
+    print('loadstring(game:HttpGet("https://raw.githubusercontent.com/webcriamanca/LucasMenu-aimbot-/main/LucasMenu%20(aimbot)",true))()')
+end)
+
+Section:Button('silent aim', function(t)
+    print('loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua",true))()')
+end)
+
+Section:Button('Esp', function(t)
+    print('loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua",true))()')
+end)
